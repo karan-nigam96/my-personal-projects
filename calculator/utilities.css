@@ -1,0 +1,18 @@
+.text-center{
+    text-align: center;
+  }
+  .orange{
+    background-color: #FF6833;
+    box-shadow: 1px 2px 7px #f2765a;
+    color: white;
+  }
+  .orange:hover{
+    box-shadow: 1px 2px 2px #FF5733;
+  }
+  .font{
+    font-size: 1.8rem;
+  }
+  .black{
+    background-color: black;
+    color: white;
+  }
