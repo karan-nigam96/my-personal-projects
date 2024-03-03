@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Gallery | Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.jpg">
+</head>
+<body>
+    <div class="heading1">
+        <img src="images/icon.jpg" class="logo">
+          <div class="nav">
+              <a href="index.html">Home</a>
+              <a href="login.html">Login</a>
+              <a href="contacts.html">Contact</a>
+              <a href="gallery.html">Gallery</a>
+          </div>
+      </div>
+    <div class="heading">
+        <h1>Web Gallery</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2 class="name">Corousel</h2>
+            <a href="corousel.html" class="buy">Corousel</a>
+            <img src="images/i1.jpg" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Staged Scrolling</h2>
+            <a href="scroll.html" class="buy">Staged Scrolling</a>
+            <img src="images/i2.jpg" class="product">
+        </div>
+        <div class="box">
+            <h2 class="name">Collage</h2>
+            <a href="collage.html" class="buy">Collage</a>
+            <img src="images/i3.jpg" class="product">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".box"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 0.5
+	});
+    VanillaTilt.init(document.querySelectorAll(".box"));
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Gallery | Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="icon" href="images/icon.jpg">
+</head>
+<body>
+    <div class="heading">
+        <p>Click to zoom</p>
+    </div>
+    <div class="box">
+        <span style="--i:1;"><img src="images/img1.avif" onclick="showImage(src)"></span>
+        <span style="--i:2;"><img src="images/img2.avif" onclick="showImage(src)"></span>
+        <span style="--i:3;"><img src="images/img3.avif" onclick="showImage(src)"></span>
+        <span style="--i:4;"><img src="images/london.avif" onclick="showImage(src)"></span>
+        <span style="--i:5;"><img src="images/rome.avif" onclick="showImage(src)"></span>
+        <span style="--i:6;"><img src="images/bora bora.avif" onclick="showImage(src)"></span>
+        <span style="--i:7;"><img src="images/phuket.avif" onclick="showImage(src)"></span>
+        <span style="--i:8;"><img src="images/img8.jpg" onclick="showImage(src)"></span>
+        <span style="--i:9;"><img src="images/img9.jpg" onclick="showImage(src)"></span>
+        <span style="--i:10;"><img src="images/img10.jpg" onclick="showImage(src)"></span>
+        <span style="--i:11;"><img src="images/img11.jpg" onclick="showImage(src)"></span>
+        <span style="--i:12;"><img src="images/img12.jpg" onclick="showImage(src)"></span>
+        <span style="--i:13;"><img src="images/img13.jpg" onclick="showImage(src)"></span>
+        <span style="--i:14;"><img src="images/img14.jpg" onclick="showImage(src)"></span>
+        <span style="--i:15;"><img src="images/img15.jpg" onclick="showImage(src)"></span>
+        <span style="--i:16;"><img src="images/img16.jpg" onclick="showImage(src)"></span>
+        <span style="--i:17;"><img src="images/img17.jpg" onclick="showImage(src)"></span>
+        <span style="--i:18;"><img src="images/img18.jpg" onclick="showImage(src)"></span>
+    </div>
+    <div class="image-popup-container" id="imagePopup">
+		<span class="close-button" onclick="closeImage()"><i class="fa-solid fa-xmark"></i></span>
+		<img src="" alt="Popup Image" id="popupImage">
+	</div>
+    <script src="collage.js"></script>
+</body>
+</html>

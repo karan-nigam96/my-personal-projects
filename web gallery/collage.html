@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="collage.css">
+	<title>Web Gallery | Collage</title>
+	<link rel="icon" href="icon.jpg">
+</head>
+<body>
+<!-- Heading Name -->
+<div class="heading">
+	<h1>Web Gallery</h1>
+</div>
+	<!-- Image Gallery section all image in one div -->
+	<div class="gallery">
+<img src="images/img1.avif" alt="Image 2" class="gallery-img" onclick="showImage(src)">
+<img src="images/self.jpg"alt="Image 3" class="gallery-img" onclick="showImage(src)">
+<img src="images/img3.avif" alt="Image 4" class="gallery-img" onclick="showImage(src)">
+<img src="images/rome.avif" alt="Image 5" class="gallery-img" onclick="showImage(src)">
+<img src="images/london.avif" alt="Image 6" class="gallery-img" onclick="showImage(src)">
+<img src="images/phuket.avif" alt="Image 7" class="gallery-img" onclick="showImage(src)">
+<img src="images/bora bora.avif" alt="Image 8" class="gallery-img" onclick="showImage(src)">
+<img src="images/img8.jpg" alt="Image 9" class="gallery-img" onclick="showImage(src)">
+<img src="images/img9.jpg" alt="Image 10" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img10.jpg" alt="Image 11" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img11.jpg" alt="Image 12" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img12.jpg" alt="Image 13" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img13.jpg" alt="Image 14" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img14.jpg" alt="Image 15" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img15.jpg" alt="Image 16" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img16.jpg" alt="Image 17" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img17.jpg" alt="Image 18" class="gallery-img" onclick="showImage(src)">		 
+<img src="images/img18.jpg" alt="Image 1" class="gallery-img" onclick="showImage(src)">		 
+</div>
+
+<!-- Image containter where image will show in big size -->
+	<div class="image-popup-container" id="imagePopup">
+		<span class="close-button" onclick="closeImage()">x</span>
+		<img src="" alt="Popup Image" id="popupImage">
+	</div>
+	<script src="collage.js"></script>
+</body>
+</html>

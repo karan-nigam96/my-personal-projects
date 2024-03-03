@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    max-height: 100vh;
+}
+.slider-thumb{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.slider-thumb .slick-slide{
+    position: relative;
+    margin: 15px;
+    transition: all ease 0.5s;
+}
+.slider-thumb .slick-slide h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+.slider-thumb .slick-slide img{
+    border-radius: 8px;
+    transition: all ease 0.5s;
+}
+.slider-thumb .slick-slide:hover img{
+    filter: brightness(0.5);
+}
+.slider-thumb .slick-slide:hover h2{
+    opacity: 1;
+    top: 20px;
+}
+.slider-thumb .slick-slide.slick-current{
+    transform: scale(1.1);
+}
+.slider-thumb .slick-slide.slick-current img{
+    filter: brightness(0.5);
+}
+.slider-thumb .slick-slide.slick-current h2{
+    opacity: 1;
+    top: 20px;
+}
+.slider-full-caption{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    color: #fff;
+    font-size: 68px;
+}
+p{
+    font-size: 22px;
+    margin: -10px ;
+}
