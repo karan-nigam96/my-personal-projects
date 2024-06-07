@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Description :
+This is a news application that uses an external News API for gathering its daily news. It shows General, Business, Sports, Technology related news. It is a react based application so it provides seamless and smooth experience in reading news.  
+
+# Dependencies used and their versions: 
+
+"@testing-library/jest-dom": "^5.17.0",
+"@testing-library/react": "^13.4.0",
+"@testing-library/user-event": "^13.5.0",
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-infinite-scroll-component": "^6.1.0",
+"react-router-dom": "^5.3.4",
+"react-scripts": "5.0.1",
+"react-top-loading-bar": "^2.3.1",
+"web-vitals": "^2.1.4"
+
 ## Available Scripts
 
 In the project directory, you can run:
