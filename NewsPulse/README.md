@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Description
+IT is a responsive API based News Web App to display the daily news and its contents category-wise.
+
 # Demo Look
 ![WhatsApp Image 2024-08-26 at 10 36 51_bbfbb578](https://github.com/user-attachments/assets/efbb7f4a-acc3-4e45-88dd-bb57120d7073)
 
